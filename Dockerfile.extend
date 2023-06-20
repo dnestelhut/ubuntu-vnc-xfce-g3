@@ -35,7 +35,7 @@ RUN \
 
 ### maybe you want to add some additional resources
 ### e.g. some preconfigured files
-# COPY ./bashrc "${HOME}"/.bashrc
+COPY ./unity_test "${HOME}"/
 # COPY ./firefox.plus/user.js "${HOME}"/firefox.plus/
 
 ### usually you want to swich back to a non-root user
